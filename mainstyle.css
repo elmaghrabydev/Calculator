@@ -1,0 +1,139 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    font-family: cursive;
+}
+
+body {
+    background-color: #626161;
+}
+
+.calculator {
+    width: 230px;
+    height: 300px;
+    padding: 10px;
+    background-image: linear-gradient(to right bottom,
+            black,
+            rgb(68, 68, 68),
+            gray,
+            rgb(187, 187, 187),
+            gray,
+            rgb(68, 68, 68),
+            black);
+    margin: 100px auto;
+    border-radius: 7px;
+    box-shadow: 0px 0px 10px 9.1px #3f3f3f;
+}
+
+.display {
+    background-color: #ececec;
+    height: 50px;
+    width: 100%;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 7px;
+}
+
+button {
+    font-size: 15px;
+    margin: 3px 3px 6px 3px;
+    height: 35px;
+    border: none;
+    background-color: snow;
+    border-radius: 10px;
+}
+
+button:hover {
+    background-color: #616060;
+    color: snow;
+    transform: translate(0px, -2px);
+    transition: 0.3s;
+}
+
+div button:last-child {
+    background-color: #616060;
+    color: snow;
+}
+
+div button:last-child:hover {
+    background-color: #eee;
+    color: black;
+
+    transform: translate(0px, -2px);
+}
+
+.row-one>button:first-child {
+    width: 45%;
+}
+
+.row-one>button:nth-child(2) {
+    width: 20%;
+}
+
+.row-one>button:nth-child(3) {
+    width: 20%;
+}
+
+/*  */
+
+.row-two>button:first-child {
+    width: 20%;
+}
+
+.row-two>button:nth-child(2) {
+    width: 20%;
+}
+
+.row-two>button:nth-child(3) {
+    width: 20%;
+}
+
+.row-two>button:nth-child(4) {
+    width: 20%;
+}
+
+/*  */
+
+.row-three>button:first-child {
+    width: 20%;
+}
+
+.row-three>button:nth-child(2) {
+    width: 20%;
+}
+
+.row-three>button:nth-child(3) {
+    width: 20%;
+}
+
+.row-three>button:nth-child(4) {
+    width: 20%;
+}
+
+/*  */
+
+.row-four>button:first-child {
+    width: 20%;
+}
+
+.row-four>button:nth-child(2) {
+    width: 20%;
+}
+
+.row-four>button:nth-child(3) {
+    width: 20%;
+}
+
+.row-four>button:nth-child(4) {
+    width: 20%;
+}
+
+/*  */
+
+.row-five>button:first-child {
+    width: 70%;
+}
+
+.row-five>button:nth-child(2) {
+    width: 20%;
+}
